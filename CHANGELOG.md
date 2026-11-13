@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.1 — 2026-11-13
+- Routing now also fires on question-form requests ("jev로 … 할 수 있을까", "jev 쓸 데 있어?"), which are this plugin's typical entry. API-key, price and version questions stay excluded.
+
 ## 0.1.0 — 2026-11-13
 - First public release. Rebuilt from the author's personal Jev workflow skill and renamed 골라제브 (golla-jev).
 - Idea mode: when the scope is broad, list 3–5 candidate "pick one" moments before designing one in full.
