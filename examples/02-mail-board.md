@@ -160,7 +160,7 @@ questions:
 - **정답 붙이기**: 담당자 기록을 정답으로 쓰되, 30건은 다른 팀원이 따로 붙여 사람끼리 일치율을 잽니다. 사람끼리 갈린 건은 따로 표시합니다. 실행 전에 해시로 잠급니다(`lock.txt`).
 - **문턱 정하기**: id 해시로 dev 4할, holdout 6할로 나눕니다. ko, ko_rev(보기 순서 뒤집기), packed(묶음) 조건을 2회씩 돌립니다. 문턱은 dev에서 '자동 처리 중 오답 0'이 되는 가장 낮은 확실도로 고릅니다. 칸, 답장 필요(아니오 쪽), 막힘을 따로 정하고, 남의 문턱은 쓰지 않습니다.
 - **성공 기준**: holdout에서 자동 처리 중 오답 0~1건, 자동 처리율 80% 이상이면 2주 동안 그림자 운영을 합니다. 이 기간에는 사람 분류를 계속하고 결과만 비교합니다. 운영에 들어간 뒤에는 사람이 고친 카드를 표본에 계속 더하고 모델이 바뀔 때마다 문턱을 다시 맞춥니다.
-- **템플릿**: `${CLAUDE_PLUGIN_ROOT}/skills/golla-jev/bench/`(`${CLAUDE_PLUGIN_ROOT}/skills/golla-jev/bench/`)를 작업 폴더로 복사한 뒤, `build_items.py`의 `WF['w2_cat']` 보기를 위 6칸으로 바꾸고 `w2_reply`에 실제 메일을 넣습니다. 실행 순서는 `build_items.py`, `run.py`(키는 비밀 저장소에서 `TYPESAFE_API_KEY`로 주입), `analyze.py`, `sweep.py`입니다.
+- **템플릿**: `${CLAUDE_PLUGIN_ROOT}/skills/golla-jev/bench/`를 작업 폴더로 복사한 뒤, `build_items.py`의 `WF['w2_cat']` 보기를 위 6칸으로 바꾸고 `w2_reply`에 실제 메일을 넣습니다. 실행 순서는 `build_items.py`, `run.py`(키는 비밀 저장소에서 `TYPESAFE_API_KEY`로 주입), `analyze.py`, `sweep.py`입니다.
 
 모델과 가격은 docs.typesafe.ai에서 2026-11-13에 다시 확인했습니다. 현재 모델은 `jev-1.14.0`, 입력 $0.042/1M 토큰이고 출력은 무료입니다. 1.14부터 이미지 입력도 받으므로, 오류 스크린샷 첨부를 state에 넣는 일은 2단계 후보로 둡니다.
 

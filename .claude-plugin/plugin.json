@@ -1,6 +1,6 @@
 {
   "name": "golla-jev",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "골라제브 — find the 'pick one' moments in your work and hand them to Jev (TypeSafe System One). Designs runnable workflows with question JSON, document previews and a test plan.",
   "author": {
     "name": "fivetaku",

@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.2 — 2026-11-13
+- Example 02: removed a duplicated plugin path in the test-plan line.
+
 ## 0.1.1 — 2026-11-13
 - Routing now also fires on question-form requests ("jev로 … 할 수 있을까", "jev 쓸 데 있어?"), which are this plugin's typical entry. API-key, price and version questions stay excluded.
 
