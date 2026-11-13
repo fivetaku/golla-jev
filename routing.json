@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "skill": "golla-jev:golla-jev",
+      "when": "Jev(TypeSafe System One)를 업무·서비스·아이디어에 붙일 워크플로를 설계하거나 쓸 데를 찾을 때",
+      "priority": 20,
+      "keywords": ["골라제브", "golla-jev", "jev 워크플로", "jev로", "jev 응용", "jev 붙여", "제브로", "제브 쓸", "system one 워크플로"],
+      "exclude": ["jev api 키", "jev 가격", "jev 버전"]
+    }
+  ]
+}

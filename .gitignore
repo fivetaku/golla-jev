@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+__pycache__/
+.claude/*.local.md
+
+# Plugin-specific
+.omc/
+
+# bench run output
+skills/golla-jev/bench/results/raw.jsonl
