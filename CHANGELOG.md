@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4 — 2026-11-22
+- Update notifier refresh
+- Auto-update consent
+
 ## 0.1.3 — 2026-11-13
 - Example 01: names, card and approval numbers replaced with placeholders (`직원 A`, `****-0000`).
 - Benchmark report: explains why `results/summary.json` shows threshold 0.52 (97% precision rule in `analyze.py`) while the docs cite 0.70 (zero-error rule in `threshold-sweep.txt`).
