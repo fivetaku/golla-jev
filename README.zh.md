@@ -19,6 +19,8 @@ Jev（TypeSafe System One）不写文字，只从给定选项中挑选，用概�
 
 Claude Code 2.1.275+: `/plugin install golla-jev --marketplace fivetaku/gptaku_plugins`
 
+Codex: `codex plugin marketplace add fivetaku/gptaku_plugins` then `codex plugin add golla-jev@gptaku-plugins`
+
 重启 Claude Code 后这样说：
 
 - `/golla-jev 我想把团队的收据报销自动化`

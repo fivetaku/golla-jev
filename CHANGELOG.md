@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0 — 2026-11-23
+- Codex에서도 같은 스킬로 동작: SKILL.md에 실행 환경 블록을 넣고 `references/codex.md`에 Codex 질문 도구 순서(async → Plan → 번호 블록 → `codex exec`는 묻지 않음)와 경로 차이를 정리했다.
+- 첫 실행 설정 스크립트가 Codex에서는 아무것도 하지 않는다. Claude Code 동작은 그대로다.
+
 ## 0.1.4 — 2026-11-22
 - Update notifier refresh
 - Auto-update consent

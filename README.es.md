@@ -19,6 +19,8 @@ Jev (TypeSafe System One) no escribe texto. Elige entre opciones fijas, responde
 
 Claude Code 2.1.275+: `/plugin install golla-jev --marketplace fivetaku/gptaku_plugins`
 
+Codex: `codex plugin marketplace add fivetaku/gptaku_plugins` then `codex plugin add golla-jev@gptaku-plugins`
+
 Reinicia Claude Code y prueba:
 
 - `/golla-jev Quiero automatizar los reembolsos de recibos de mi equipo`

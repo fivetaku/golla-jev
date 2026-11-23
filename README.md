@@ -19,6 +19,8 @@ Jev (TypeSafe System One) does not write text. It picks from fixed options and a
 
 Claude Code 2.1.275+: `/plugin install golla-jev --marketplace fivetaku/gptaku_plugins`
 
+Codex: `codex plugin marketplace add fivetaku/gptaku_plugins` then `codex plugin add golla-jev@gptaku-plugins`
+
 Restart Claude Code, then try:
 
 - `/golla-jev I want to automate our team's receipt reimbursements`

@@ -19,6 +19,8 @@ Jev(TypeSafe System One)는 글을 쓰지 않고 정해진 보기 중에서 고�
 
 Claude Code 2.1.275+: `/plugin install golla-jev --marketplace fivetaku/gptaku_plugins`
 
+Codex: `codex plugin marketplace add fivetaku/gptaku_plugins` 후 `codex plugin add golla-jev@gptaku-plugins`
+
 Claude Code를 다시 시작한 뒤 이렇게 말하면 됩니다.
 
 - `/golla-jev 우리 팀 영수증 정산을 자동화하고 싶어`
